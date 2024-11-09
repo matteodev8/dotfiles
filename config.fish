@@ -7,4 +7,3 @@ starship init fish | source
 export PATH="/home/matteo/.bin:$PATH"
 alias ff="fastfetch"
 alias ls="eza --grid -l"
-
