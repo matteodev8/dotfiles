@@ -19,3 +19,6 @@ cp ./fastfetch-config.jsonc ~/.config/fastfetch/config.jsonc
 echo "Copying alacritty config..."
 mkdir -p ~/.config/alacritty
 cp ./alacritty.toml ~/.config/alacritty/alacritty.toml
+
+echo "Copying tmux config..."
+cp ./tmux.conf ~/.tmux.conf
