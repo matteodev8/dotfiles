@@ -15,7 +15,7 @@ bindings = [
 
 [mouse]
 bindings = [
-  { mouse = "Right", mods = "Control", action = "Paste" },
+  { mouse = "Right", mods = "Shift", action = "Paste" },
 ]
 
 

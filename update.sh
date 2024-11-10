@@ -17,3 +17,7 @@ cp ~/.config/alacritty/alacritty.toml ./alacritty.toml
 
 echo "Saving tmux config..."
 cp ~/.tmux.conf ./tmux.conf
+
+git add --all
+git commit -m "auto: update dotfiles"
+git push
