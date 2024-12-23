@@ -1,3 +1,7 @@
 #!/bin/bash
 
-stow -v -t $HOME .
+stows=("fish" "alacritty" "environment" "ssh")
+
+for stow in "${stows[@]}"; do
+  stow -v -t ~ $stow
+done
