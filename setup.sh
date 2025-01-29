@@ -1,6 +1,6 @@
 #!/bin/bash
 
-stows=("fish" "alacritty" "environment" "ssh" "git" "zellij")
+stows=("fish" "alacritty" "environment" "ssh" "git" "zellij" "nvim")
 
 for stow in "${stows[@]}"; do
   stow -v -t ~ $stow
