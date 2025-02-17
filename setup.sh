@@ -1,7 +1,7 @@
 #!/bin/bash
 
-stows=("fish" "alacritty" "environment" "ssh" "git" "zellij" "nvim")
+# Thanks pookie for letting me steal this
 
-for stow in "${stows[@]}"; do
-  stow -v -t ~ $stow
-done
+echo "Installing dotfiles..."
+stow --ignore=".git*|setup.sh" .
+cd - || return
